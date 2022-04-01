@@ -179,6 +179,7 @@ nav{
     grid-template-rows: mansory;
     padding-top: 100px;
 }
+
 /* Estilo sobre las imágenes contenidas dentro del grid-container */
 .card-image img{
     max-width: 100%;
@@ -189,3 +190,81 @@ nav{
     cursor: zoom-in;
     color: #efefef;
 }
+
+@media screen and (max-width: 768px) {
+    /* Estilo al div que contiene el logo */
+    .nav-logo{
+        height: 48px;
+        width: 38px;
+    }
+    /* Estilo al icono de logo */
+    #pinterest-icon{
+        height: 20px;
+        width: 20px;
+    }
+    
+    /* Estilo a la clase nav-button para darle estilo al div que contiene los botones */
+    .nav-button {
+        height: 48px;
+        margin: 10px 0;
+    }
+    .b-inicio{
+        width: 90px;
+    }
+    .b-hoy{
+        width: 50px;
+    }
+    /* Estilo a los botones */
+    .button{
+        font-size: 14px;
+    }
+    /* Estilo al botón de inicio */
+    .inicio{
+        width: 75px;   
+    }
+    /* Estilo al botón de hoy */
+    .hoy{ 
+        width: 55px;
+    }
+    
+    /* Estilo al div que contiene la barra de busqueda y el icono de busqueda */
+    .nav-input-container{
+        height: 45px;
+        width: 400px;
+    }
+    /* Estilo al div que contiene el icono de busqueda: search-icon */
+    .search-icon{
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+    }
+    /* Estilo a input con la clase: finder */
+    .finder{
+        font-size: 14px; 
+        width: 380px;
+    }
+    
+    /* Estilos a las imágenes (tamaño y posición) */
+    #notifications, #message, #simbolo{
+        height: 48px;
+        width: 30px;
+    }
+    .button-icon{
+        width: 20px;
+        height: 20px;
+    }
+    #profile-img{
+        height: 48px;
+        width: 28px;
+    }
+    .perfil{
+        width: 20px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .icon-simbolo{
+        width: 15px;
+        height: 18px;
+    }
+    
+    }
