@@ -174,20 +174,28 @@ nav {
 }
 /* Grid-container, define las filas y columnas */
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 200px);
-  gap: 10px;
-  justify-content: center;
-  grid-template-rows: mansory;
+  -moz-column-width: 13em;
+  -webkit-column-width: 13em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
   padding-top: 100px;
 }
 /* Estilo sobre las imágenes contenidas dentro del grid-container */
+.card-image {
+  margin: 0 0 20px;
+}
 .card-image img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   border-radius: 15px;
 }
 /* Efecto sobre las imágenes */
 .card-image img:hover {
   cursor: zoom-in;
   color: #efefef;
+}
+
+#content {
+  width: 1000px;
+  margin: 0 auto;
 }
