@@ -1,189 +1,194 @@
 /* Reseteo de valores predeterminados del navegador */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Segoe UI', sans-serif;
+body {
+  font-family: 'Segoe UI', sans-serif;
 }
 /* Estilo al nav (posición, alto y ancho) */
-nav{
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    background-color: white;
-    box-shadow: rgb(0 0 0 / 10%) 0px 8px 8px -8px;
+nav {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 10%) 0px 8px 8px -8px;
 }
 /* Estilo al div que contiene todos los elementos de la barra de naveagación */
-.nav-main{
-    display: flex;
+.nav-main {
+  display: flex;
 }
 /* Estilo al div que contiene el logo */
-.nav-logo{
-    height: 48px;
-    width: 48px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background: transparent;
-    margin: 16px 0 16px 16px;
+.nav-logo {
+  height: 48px;
+  width: 48px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: transparent;
+  margin: 16px 0 16px 16px;
 }
 /* Estilo al icono de logo */
-#pinterest-icon{
-    height: 28px;
-    width: 28px;
+#pinterest-icon {
+  height: 28px;
+  width: 28px;
 }
 /* Efecto sobre el botón: icon, con la pseudo-clase: hover */
-.icon:hover{
-    background-color: #efefef;
-    border-radius: 50px;
-    cursor: pointer;
+.icon:hover {
+  background-color: #efefef;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 /* Estilo a la clase nav-button para darle estilo al div que contiene los botones */
 .nav-button {
-    height: 60px;
-    white-space: nowrap;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0;
+  height: 60px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
 }
-.b-inicio{
-    width: 120px;
+.b-inicio {
+  width: 120px;
 }
-.b-hoy{
-    width: 70px;
+.b-hoy {
+  width: 70px;
 }
 /* Estilo a los botones */
-.button{
-    border-radius: 24px;
-    border: none;
-    height: 40px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold; 
+.button {
+  border-radius: 24px;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
 }
 /* Estilo al botón de inicio */
-.inicio{
-    background-color: black;
-    color: white;
-    width: 75px;   
+.inicio {
+  background-color: black;
+  color: white;
+  width: 75px;
 }
 /* Estilo al botón de hoy */
-.hoy{ 
-    background: transparent;
-    color: black;
-    width: 55px;
+.hoy {
+  background: transparent;
+  color: black;
+  width: 55px;
 }
 /* Efecto sobre el botón "hoy" con la pseudo-clase: hover */
-.hoy:hover{
-    background-color: #efefef;
+.hoy:hover {
+  background-color: #efefef;
 }
 
 /* Estilo al div que contiene la barra de busqueda y el icono de busqueda */
-.nav-input-container{
-    height: 45px;
-    width: 810px;
-    border-radius: 24px;
-    background-color: #efefef;
-    justify-content: flex-start;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
-    margin: 16px 0 10px 16px;
+.nav-input-container {
+  height: 45px;
+  width: 810px;
+  border-radius: 24px;
+  background-color: #efefef;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin: 16px 0 10px 16px;
 }
 /* Estilo al div que contiene el icono de busqueda: search-icon */
-.search-icon{
-    background-image: url(/images/icono-buscar.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 22px;
-    width: 22px;
-    margin-left: 10px;
+.search-icon {
+  background-image: url(/images/icono-buscar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 22px;
+  width: 22px;
+  margin-left: 10px;
 }
 /* Estilo a input con la clase: finder */
-.finder{
-    background-color: transparent;
-    border: none;
-    color: rgb(51, 51, 51);
-    font-size: 16px; 
-    font-weight: normal;
-    outline: none;
-    padding: 0px;
-    margin-left: 10px;
-    width: 700px;
+.finder {
+  background-color: transparent;
+  border: none;
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  font-weight: normal;
+  outline: none;
+  padding: 0px;
+  margin-left: 10px;
+  width: 700px;
 }
-.nav-input-container:hover{
-    background-color: #e2e1e1;
+.nav-input-container:hover {
+  background-color: #e2e1e1;
 }
 
 /* Div que contiene los botones: notificaciones, mensajes e imagen de perfil */
-.nav-button-right{
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
+.nav-button-right {
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
 }
 /* Estilos a las imágenes (tamaño y posición) */
-#notifications, #message, #simbolo{
-    height: 48px;
-    width: 48px;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    padding: 0 20px;
-    margin: 16px 0 16px 16px;
+#notifications,
+#message,
+#simbolo {
+  height: 48px;
+  width: 48px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  padding: 0 20px;
+  margin: 16px 0 16px 16px;
 }
-.button-icon{
-    width: 28px;
-    height: 28px;
+.button-icon {
+  width: 28px;
+  height: 28px;
 }
-#profile-img{
-    height: 48px;
-    width: 48px;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    margin: 16px 0 16px 16px;
+#profile-img {
+  height: 48px;
+  width: 48px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  margin: 16px 0 16px 16px;
 }
-.perfil{
-    width: 35px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #efefef;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 4px;
+.perfil {
+  width: 35px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #efefef;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 4px;
 }
-.icon-simbolo{
-    width: 28px;
-    height: 18px;
-    background: transparent;
-    border-radius: 50%;
+.icon-simbolo {
+  width: 28px;
+  height: 18px;
+  background: transparent;
+  border-radius: 50%;
 }
 /* Grid-container, define las filas y columnas */
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 200px);
-    gap: 10px;
-    justify-content: center;
-    grid-template-rows: mansory;
-    padding-top: 100px;
+.grid-container {
+  -moz-column-width: 13em;
+  -webkit-column-width: 13em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+  padding-top: 100px;
 }
 
 /* Estilo sobre las imágenes contenidas dentro del grid-container */
-.card-image img{
-    max-width: 100%;
-    border-radius: 15px;
+.card-image {
+  margin: 0 0 20px;
+}
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
 /* Efecto sobre las imágenes */
 .card-image img:hover{
@@ -268,3 +273,12 @@ nav{
     }
     
     }
+.card-image img:hover {
+  cursor: zoom-in;
+  color: #efefef;
+}
+
+#content {
+  width: 1000px;
+  margin: 0 auto;
+}
